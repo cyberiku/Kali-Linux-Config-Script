@@ -2,7 +2,12 @@
 
 This script will prepare you kali linux for pentesting.
 
-## You need to run this script with sudoe or as Root.
+## Use this command download the script. "wwwwwwwwwwwwww"
+
+## Pre-Requisite. 
+#You need to have a internet connection. 
+#You need to run this script as Root.
+#You need to be login to Hackthebox.com and download the vpn file to be able to use some of the aliasses.
 
 
 # Everything we are doing with the script. 
@@ -13,9 +18,10 @@ This script will prepare you kali linux for pentesting.
 	3. Create a Reports folder to add the report for the machines.
 	4. Create an Exploits folder for Exploit files. 
 	5. Create a Shared Folder to share files with teh host. 
+	6. Create a VPN folder and inside create a HTB-VPN Folder. 
 
-2. Create you mot useful Aliases. 
-	1. Create teh ss alias for searchploit 
+2. Create you most uselful aliases
+	1. Create the  alias for searchploit 
 	2. Create the ssx alias for adding option to searchsploit
 	3. Create your l alias for your ls -la
 	4. Create your webup to setup your python http server on port 80
