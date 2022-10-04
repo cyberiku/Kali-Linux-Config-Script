@@ -16,14 +16,16 @@
 
 ## Everything we are doing with the script. 
 
-1. Collect your information to display later.
+1. Makes sure you are root.
+
+2. Collect your information to display later.
 	1. Collect your Username. <-----You will get this from your login information.
 	2. Collect your HTB Target IP Address. <----- You will get this once you go into the "Machines"
 	3. Collect your HTP Target Name.<----- You will get this once you go into the "Machines"
 	3. Collect your vpn Tunnel IP Address.<----- We will print this from your ifconfig. This is why you need to be running your htb vpn. 
 
 
-1. Creating Folders 
+3. Creating Folders 
 	1. Create your Terminator Folder to use it with Termiantor.
 	2. Create a BF for Buffer Overflow files
 	3. Create a Reports folder to add the report for the machines.
@@ -31,7 +33,7 @@
 	5. Create a Shared Folder to share files with teh host. 
 	6. Create a VPN folder and inside create a HTB-VPN Folder. 
 
-2. Create you most uselful aliases
+4. Create you most uselful aliases
 	1. Create the  alias for searchploit 
 	2. Create the ssx alias for adding option to searchsploit
 	3. Create your l alias for your ls -la
@@ -39,17 +41,17 @@
 	5. Create your vpn alias to setup your vpn connection. 
 	6. Create your rdp alias to connect to your rdp machine  case you have one in the network. 
 
-3. Update and Upgrade your system. 
+5. Update and Upgrade your system. 
 	1. clean your upgrade
 	2. update your system 
 	3. upgrade your system 
 	4. upgrade your distribution 
 	
-4. Install Software!
+6. Install Software!
 	1. Install terminator 
 	2. Install gedit
 	
-5. Exit the script.	
+7. Exit the script.	
 	
 
 
