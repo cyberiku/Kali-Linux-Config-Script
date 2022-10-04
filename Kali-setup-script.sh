@@ -9,15 +9,18 @@ fi
 
 echo “what is your cyber name?”
 read name
-if [ $name ]
-then
-        echo "$name you Tunnel IP address is"
-else
-        echo "You need to have an alias name!"
-exit
-fi
+echo “what is your HTB Machine Name?”
+read htbmachine
+echo “what is your HTB Machine IP Address?”
+read htbmachineip
+tunip=$(ifconfig | grep destination | awk '{ print $2 }')
 
-ifconfig | grep destination | awk '{ print $2 }'
+myinfo="Your username is $name, your Target Machine name is $htbmachine, your target IP address is $htbmachineip, and your  tunnel IP address is $tunip 
+"
+echo  "$myinfo" >> myinfo.txt
+
+echo  "You information was saved to a text file in your Desktop called myinfo.txt"
+
 
 printf '\n#################################################################################\n'
 printf '################################ Change your password! ##############################\n'
