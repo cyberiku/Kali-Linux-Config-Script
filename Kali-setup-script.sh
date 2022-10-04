@@ -34,7 +34,7 @@ printf '\n######################################################################
 printf '################## Create new folders for this machine! #########################\n'
 printf '\n#################################################################################\n'
 
- #mkdir /opt/Tools
+ mkdir /opt/Tools
  mkdir Terminator
  mkdir BF
  mkdir Exploits
@@ -52,14 +52,6 @@ printf '\n######################################################################
  alias webup='sudo python -m http.server 80'
  #alias vpn='openvpn /root/pwnshare/VPN/OS-XXXXX-PWK.ovpn'
  #alias rdp='rdesktop -g 85% -u offsec -p PASSWORD_HERE 10.11.14.134 &'
- 
- 
-printf '\n#################################################################################\n'
-printf '################################ Install Software! ##############################\n'
-printf '\n#################################################################################\n'
-
- sudo apt-get install terminator
- sudo apt install gedit
 
 printf '\n#################################################################################\n'
 printf '######################### Update and Upgrade the system! #########################\n'
@@ -69,6 +61,13 @@ printf '\n######################################################################
  sudo apt-get update 
  sudo apt-get upgrade -y 
  sudo apt-get dist-upgrade -y
+
+printf '\n#################################################################################\n'
+printf '################################ Install Software! ##############################\n'
+printf '\n#################################################################################\n'
+
+ sudo apt-get install terminator
+ sudo apt install gedit
 
 printf '\n#################################################################################\n'
 printf '######################### Start Metasploit database! #########################\n'
