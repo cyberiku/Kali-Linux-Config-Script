@@ -4,10 +4,10 @@
 
 ## Pre-Requisite. 
 #You need to have an Internet Connection. 
-#You need to connect to your HTB account and download, and connect your vpn tunnel. 
+#You need to connect to your HTB account and download, move the file to the vpn/htb folder and connect your vpn tunnel. 
 #You need to run this script as Root.
 
-##How to use get the script and run the script. 
+## How to use get the script and run the script. 
 # Use this command to download the script. "git clone https://github.com/cyberiku/Kali-Linux-Config-Script.git"
 # Navigate to the downloaded folder by typing "cd Kali-Linux-Config-Script"
 # Change the permission to execute by "chmod +x chmod +x Kali-setup-script.sh"
