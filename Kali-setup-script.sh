@@ -70,8 +70,8 @@ printf '\n######################################################################
 printf '################################ Install Software! ##############################\n'
 printf '\n#################################################################################\n'
 
- sudo apt-get install terminator
- sudo apt install gedit
+ sudo apt-get install terminator -y
+ sudo apt install gedit -y
 
 printf '\n#################################################################################\n'
 printf '######################### Start Metasploit database! #########################\n'
